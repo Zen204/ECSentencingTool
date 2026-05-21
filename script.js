@@ -226,7 +226,7 @@ function buildConsequenceCategoryPage() {
         <div style="flex:1">
           <input type="radio" name="cc" id="${uid}" style="pointer-events:none">
           <label style="font-weight:700">${item.label}</label>
-          <ul style="margin:6px 0 0 18px;font-size:0.9rem;color:var(--muted);font-style:italic">
+          <ul style="margin:6px 0 0 18px;font-size:0.96rem;color:var(--muted);font-style:italic">
             ${item.bullets.map(b => `<li>${b}</li>`).join('')}
           </ul>
           <div class="range-input-wrap" id="wrap_${uid}">
