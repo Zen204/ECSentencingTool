@@ -19,6 +19,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 17px
   min-height: 100vh;
 }
 
@@ -38,14 +39,14 @@ body {
 }
 
 .app-header h1 {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .app-header p {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   font-family: 'DM Mono', monospace;
   color: var(--muted);
   margin-top: 6px;
@@ -95,14 +96,14 @@ body {
 }
 
 .welcome-body h2 {
-  font-size: 1.4rem;
+  font-size: 1.55rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   margin-bottom: 20px;
 }
 
 .welcome-body p {
-  font-size: 0.95rem;
+  font-size: 1.02rem;
   line-height: 1.85;
   color: var(--muted);
   max-width: 560px;
@@ -126,7 +127,7 @@ body {
   border: none;
   border-radius: 3px;
   font-family: 'DM Mono', monospace;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   cursor: pointer;
@@ -141,7 +142,7 @@ body {
 /* ── Page Heading ── */
 
 .page-heading {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -152,7 +153,7 @@ body {
 
 .page-heading span {
   font-family: 'DM Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.76rem;
   font-weight: 400;
   color: var(--muted);
   letter-spacing: 0.1em;
@@ -164,7 +165,7 @@ body {
 /* ── Instruction Block ── */
 
 .instruction {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-style: italic;
   color: var(--muted);
   margin-bottom: 20px;
@@ -182,7 +183,7 @@ body {
 
 .dropdown-wrap label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -196,7 +197,7 @@ select {
   border: 1px solid var(--rule);
   border-radius: 3px;
   font-family: 'Libre Baskerville', serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   background: white;
   color: var(--ink);
   appearance: none;
@@ -240,7 +241,7 @@ select:focus {
 }
 
 .option-card label {
-  font-size: 0.9rem;
+  font-size: 0.97rem;
   line-height: 1.5;
   cursor: pointer;
   flex: 1;
@@ -248,7 +249,7 @@ select:focus {
 
 .option-card .weight-badge {
   font-family: 'DM Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: var(--accent);
   white-space: nowrap;
   padding: 2px 8px;
@@ -272,7 +273,7 @@ select:focus {
 .range-input-wrap.visible { display: block; }
 
 .range-input-wrap label {
-  font-size: 0.8rem;
+  font-size: 0.86rem;
   font-family: 'DM Mono', monospace;
   color: var(--muted);
   display: block;
@@ -285,7 +286,7 @@ select:focus {
   border: 1px solid var(--rule);
   border-radius: 3px;
   font-family: 'DM Mono', monospace;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   background: white;
 }
 
@@ -296,7 +297,7 @@ select:focus {
 }
 
 .reason-block label {
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-family: 'DM Mono', monospace;
   color: var(--muted);
   text-transform: uppercase;
@@ -312,7 +313,7 @@ textarea {
   border: 1px solid var(--rule);
   border-radius: 3px;
   font-family: 'Libre Baskerville', serif;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   background: white;
   resize: vertical;
   line-height: 1.6;
@@ -335,7 +336,7 @@ textarea:focus {
   border: none;
   border-radius: 3px;
   font-family: 'DM Mono', monospace;
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   cursor: pointer;
@@ -357,7 +358,7 @@ textarea:focus {
 
 .result-block .final-label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--rule);
@@ -373,7 +374,7 @@ textarea:focus {
 
 .result-block .final-range {
   font-family: 'DM Mono', monospace;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   color: var(--rule);
   margin-top: 8px;
 }
@@ -385,7 +386,7 @@ textarea:focus {
 }
 
 .result-section h3 {
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-family: 'DM Mono', monospace;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -399,19 +400,19 @@ textarea:focus {
   align-items: baseline;
   padding: 6px 0;
   border-bottom: 1px solid var(--cream);
-  font-size: 0.88rem;
+  font-size: 0.95rem;
 }
 
 .result-row .rr-label { color: var(--ink); }
 
 .result-row .rr-val {
   font-family: 'DM Mono', monospace;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   color: var(--accent);
 }
 
 .result-note {
-  font-size: 0.8rem;
+  font-size: 0.86rem;
   font-style: italic;
   color: var(--muted);
   margin-top: 6px;
@@ -430,7 +431,7 @@ textarea:focus {
 
 .calc-steps h3 {
   font-family: 'DM Mono', monospace;
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
@@ -439,7 +440,7 @@ textarea:focus {
 
 .calc-step {
   font-family: 'DM Mono', monospace;
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   padding: 4px 0;
   color: var(--ink);
   border-bottom: 1px dotted var(--rule);
