@@ -19,7 +19,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Libre Baskerville', Georgia, serif;
-  font-size: 17px
+  font-size: 21px
   min-height: 100vh;
 }
 
