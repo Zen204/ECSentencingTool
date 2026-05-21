@@ -19,7 +19,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Libre Baskerville', Georgia, serif;
-  font-size: 21px
+  font-size: 0.9rem
   min-height: 100vh;
 }
 
@@ -153,7 +153,7 @@ body {
 
 .page-heading span {
   font-family: 'DM Mono', monospace;
-  font-size: 0.76rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: var(--muted);
   letter-spacing: 0.1em;
@@ -183,7 +183,7 @@ body {
 
 .dropdown-wrap label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -249,7 +249,7 @@ select:focus {
 
 .option-card .weight-badge {
   font-family: 'DM Mono', monospace;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--accent);
   white-space: nowrap;
   padding: 2px 8px;
@@ -273,7 +273,7 @@ select:focus {
 .range-input-wrap.visible { display: block; }
 
 .range-input-wrap label {
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   font-family: 'DM Mono', monospace;
   color: var(--muted);
   display: block;
@@ -297,7 +297,7 @@ select:focus {
 }
 
 .reason-block label {
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   font-family: 'DM Mono', monospace;
   color: var(--muted);
   text-transform: uppercase;
@@ -358,7 +358,7 @@ textarea:focus {
 
 .result-block .final-label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--rule);
@@ -374,7 +374,7 @@ textarea:focus {
 
 .result-block .final-range {
   font-family: 'DM Mono', monospace;
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   color: var(--rule);
   margin-top: 8px;
 }
@@ -386,7 +386,7 @@ textarea:focus {
 }
 
 .result-section h3 {
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   font-family: 'DM Mono', monospace;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -407,12 +407,12 @@ textarea:focus {
 
 .result-row .rr-val {
   font-family: 'DM Mono', monospace;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   color: var(--accent);
 }
 
 .result-note {
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   font-style: italic;
   color: var(--muted);
   margin-top: 6px;
@@ -431,7 +431,7 @@ textarea:focus {
 
 .calc-steps h3 {
   font-family: 'DM Mono', monospace;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--muted);
@@ -440,7 +440,7 @@ textarea:focus {
 
 .calc-step {
   font-family: 'DM Mono', monospace;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   padding: 4px 0;
   color: var(--ink);
   border-bottom: 1px dotted var(--rule);
